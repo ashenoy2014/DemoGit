@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
-  <Object type="composition" schemaVersion="4844" name="Comp2" path="/VCSCheckoutTest">
+  <Object type="composition" schemaVersion="4844" name="Comp2" path="/">
     <Body>
       <Composition xmlns="http://www.soasta.com/services/repository">
         <Bands xmlns="http://www.soasta.com/services/repository">
@@ -90,7 +90,7 @@
       </Attribute>
     </Attributes>
     <References>
-      <Reference id="2503" internalID="0" name="Clip for soasta" path="/VCSCheckoutTest" type="messageclip" />
+      <Reference id="2503" internalID="0" name="Clip for soasta" path="/" type="messageclip" />
     </References>
     <TipText />
   </Object>
