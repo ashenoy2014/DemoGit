@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <!-- Here's an XML comment, added for testing purposes. -->
   <Object type="composition" schemaVersion="4844" name="Comp2" path="/">
     <Body>
       <Composition xmlns="http://www.soasta.com/services/repository">
