@@ -5,7 +5,7 @@
       <Target xmlns="http://www.soasta.com/services/repository">
         <ServiceDefinition>
           <WSDL>
-            <wsdl:definitions targetNamespace="https://www.soasta.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <wsdl:definitions targetNamespace="http://www.soasta.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
               <wsdl:message name="RestRequestMsg" />
               <wsdl:message name="RestResponseMsg" />
               <wsdl:portType name="RestGetPort">
@@ -162,28 +162,28 @@
               </wsdl:binding>
               <wsdl:service name="soasta">
                 <wsdl:port binding="tns:RestGetBinding" name="RestGetPort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
                 <wsdl:port binding="tns:RestPostBinding" name="RestPostPort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
                 <wsdl:port binding="tns:RestPutBinding" name="RestPutPort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
                 <wsdl:port binding="tns:RestDeleteBinding" name="RestDeletePort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
                 <wsdl:port binding="tns:RestHeadBinding" name="RestHeadPort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
                 <wsdl:port binding="tns:RestOptionsBinding" name="RestOptionsPort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
                 <wsdl:port binding="tns:RestPatchBinding" name="RestPatchPort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
                 <wsdl:port binding="tns:RestTraceBinding" name="RestTracePort">
-                  <http:address location="https://www.soasta.com" />
+                  <http:address location="http://www.soasta.com" />
                 </wsdl:port>
               </wsdl:service>
             </wsdl:definitions>
