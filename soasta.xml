@@ -200,6 +200,9 @@
               <Service name="soasta" serverName="" />
             </DNSOptions>
             <MessageSupplements />
+            <GeographicLocation>
+              <Address geographicLocation="Texas" />
+            </GeographicLocation>
           </Supplements>
         </ServiceDefinition>
       </Target>
