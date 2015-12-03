@@ -22,7 +22,7 @@
     </References>
     <TipText></TipText>
   </Object>
-  <Object type="clipelement" schemaVersion="9063" name="Message1Ola" path="/Clip for soasta" parentType="messageclip" uid="492021aa-43bd-4059-b7fc-305e3874aacc">
+  <Object type="clipelement" schemaVersion="9063" name="Message1Ola2" path="/Clip for soasta" parentType="messageclip" uid="492021aa-43bd-4059-b7fc-305e3874aacc">
     <Body>
       <ClipElement xmlns="http://www.soasta.com/services/repository">
         
