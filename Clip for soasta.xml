@@ -18,21 +18,30 @@
       </Attribute>
     </Attributes>
     <References>
-      <Reference id="6916" internalID="2" name="soasta" path="/" type="target" />
+      <Reference id="6933" internalID="2" name="soasta" path="/" type="target" />
     </References>
     <TipText></TipText>
   </Object>
-  <Object type="clipelement" schemaVersion="9063" name="Message1Ola2" path="/Clip for soasta" parentType="messageclip" uid="56aec167-3f28-48f4-8af0-96bcb1173f8e">
+  <Object type="clipelement" schemaVersion="9063" name="Message1Ola3" path="/Clip for soasta" parentType="messageclip" uid="e112f292-c5c9-4610-b6d4-4800634e89d2">
     <Body>
       <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
         <Message xmlns="http://www.soasta.com/services/repository">
+          
           <Content xmlns="http://www.soasta.com/services/repository">
+            
             <REST verb="GET" xmlns="http://www.soasta.com/services/repository">
+              
               <Location xmlns="http://www.soasta.com/services/repository">/products/mpulse</Location>
+              
               <Params xmlns="http://www.soasta.com/services/repository" />
+            
             </REST>
+          
           </Content>
+        
         </Message>
+      
       </ClipElement>
     </Body>
     <BinaryData />
