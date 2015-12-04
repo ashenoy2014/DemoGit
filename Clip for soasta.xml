@@ -3,17 +3,11 @@
   <Object type="messageclip" schemaVersion="9063" name="Clip for soasta" path="/">
     <Body>
       <MessageClip xmlns="http://www.soasta.com/services/repository">
-        
         <Targets xmlns="http://www.soasta.com/services/repository">
-          
           <Target id="2" location="soasta" name="soasta (soasta)" ref="2" scope="local" xmlns="http://www.soasta.com/services/repository" />
-        
         </Targets>
-        
         <UserProperties xmlns="http://www.soasta.com/services/repository" />
-        
         <Options dynamicResourceCache="disabled" interItemDelay="0" xmlns="http://www.soasta.com/services/repository" />
-      
       </MessageClip>
     </Body>
     <BinaryData />
@@ -28,7 +22,7 @@
     </References>
     <TipText></TipText>
   </Object>
-  <Object type="clipelement" schemaVersion="9063" name="Message1Ola4a" path="/Clip for soasta" parentType="messageclip" uid="3194f105-5d3b-4f98-b3d7-959bf166f269">
+  <Object type="clipelement" schemaVersion="9063" name="Message1Ola4aa" path="/Clip for soasta" parentType="messageclip" uid="3194f105-5d3b-4f98-b3d7-959bf166f269">
     <Body>
       <ClipElement xmlns="http://www.soasta.com/services/repository">
         
